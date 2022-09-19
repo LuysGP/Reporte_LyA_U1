@@ -112,7 +112,7 @@ public class ArbolBinario extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 80, 150, 50));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel4.setText("R((6^2)-2+(3^2))");
+        jLabel4.setText("√((6^2)-2+(3^2))");
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 140, -1, -1));
 
         btnConstruir.setText("Construir Arbol");
@@ -177,7 +177,7 @@ public class ArbolBinario extends javax.swing.JFrame {
     }//GEN-LAST:event_btnPostActionPerformed
 
     private void btnConstruirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnConstruirActionPerformed
-        jtfN1.setText("RAIZ");
+        jtfN1.setText("√");
         jtfN2.setText("+");
         jtfN3.setText("-");
         jtfN4.setText("^");

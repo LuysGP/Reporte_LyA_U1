@@ -53,7 +53,7 @@ public class Arbol {
                 cad = "";
             }
             if(ref.getDato().equals("+")){
-                cad = "RAIZ" + cad + " " + ref.getDato();
+                cad = "√" + cad + " " + ref.getDato();
             } else {
                cad = cad + " " + ref.getDato(); 
             }
@@ -71,7 +71,7 @@ public class Arbol {
 
             if(ref.getDato().equals("+")){
                 inOrden(ref.getIzquierda());
-                cad = cad + " " + ref.getDato() + " RAIZ";
+                cad = cad + " " + ref.getDato() + " √";
             } else 
             {
                 inOrden(ref.getIzquierda());
@@ -93,7 +93,7 @@ public class Arbol {
             
             if(ref.getDato().equals("+")){
                 posOrden(ref.getDerecha());
-                cad = cad + " " + ref.getDato() + " RAIZ";
+                cad = cad + " " + ref.getDato() + " √";
 
             } else {
                 posOrden(ref.getDerecha());
