@@ -92,11 +92,10 @@ public class CajeroAutomatico extends JFrame {
         float saldoAnt = 0;
         float saldoCuentaPrin = saldo;
         boolean find = false;
+        int posUserAnt = posActualUser;
         
         System.out.print("Ingrese el nombre de la cuenta destino: ");
         String nombreDest = entrada.next();
-
-        
         
         for (int i = 0; i < size; i++) {
             if(nombreDest.equals(names[i])){
@@ -123,10 +122,11 @@ public class CajeroAutomatico extends JFrame {
                 saldo = saldoCuentaPrin;
             } else {
                 inMoney(cant);
-            
+                posActualUser = posUserAnt;
                 if(saldoAnt != saldo){
                     System.out.println("\n*****  TRANSFERENCIA REALIZADA EXITOSAMENTE  *****\n\n");
                     saldo = saldoCuentaPrin;
+                    outMoney(cant);
                 } else {
                     System.out.println("\n!!!! NO SE PUDO REALIZAR LA TRANSFERENCIA !!!!\n\n");
                 }
