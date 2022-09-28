@@ -1,5 +1,8 @@
 # Reporte de practicas - U1
 ----------------------------------------------------------
+## Practica Pilas
+![image](https://user-images.githubusercontent.com/82748051/192780200-c10ba187-e993-4a4b-880e-fd0aada6aa35.png)
+
 ## Practica Banco
 ![image](https://user-images.githubusercontent.com/82748051/191096473-95ac75e6-e559-4c4e-8638-fe7ad5970a9b.png)
 
